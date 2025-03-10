@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Greet user
+      - name: Greet user 1
         run: echo "Hello $NAME, this is $Training training.."
 
   hello-again:
@@ -43,5 +43,5 @@ jobs:
     steps:
 
       # Runs a single command using the runners shell
-      - name: Greet user
+      - name: Greet user 2
         run: echo "Hello $NAME, this is $Training training.."
